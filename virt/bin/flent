@@ -1,0 +1,11 @@
+#!/Users/rk/Documents/GitHub/Evaluation-of-the-different-deque-rate-measurement-techniques-employed-in-PIE-algorithm-using-Flent/virt/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from flent import run_flent
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(run_flent())
